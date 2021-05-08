@@ -31,6 +31,7 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency('dotenv', '~> 2.7', '>= 2.7.6')
   spec.add_development_dependency('rubocop', '~> 1.13')
   spec.add_development_dependency('rest-client', '~> 2.1')
+  spec.add_development_dependency('byebug', '~> 11.1', '>= 11.1.3')
 
   spec.required_ruby_version = Gem::Requirement.new('>= 2.3.0')
 end
