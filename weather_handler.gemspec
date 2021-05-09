@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = 'https://rubygems.org/gems/weather_handler'
   spec.license       = 'MIT'
 
-  spec.metadata['allowed_push_host'] = 'http://rubygems.org'
+  spec.metadata['allowed_push_host'] = 'https://rubygems.org'
 
   spec.metadata['homepage_uri'] = 'https://github.com/iviter/weather_handler'
   spec.metadata['source_code_uri'] = 'https://github.com/iviter/weather_handler'
