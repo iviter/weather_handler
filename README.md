@@ -23,9 +23,9 @@ After installation you new need to create instance of WeatherHandler::Weather cl
 
 For example: `weather = WeatherHandler::Weather.new('london')`. Now you have new instance of WeatherHandler::Weather which you can use to find out such information as:
 
-* current_temperature (just call `weather.current_temperature('celsium')` and pass celsium, kelvin or fahrenheit argument dimension as string.)
-* feels_like_temperature (just call `weather.feels_like_temperature('fahrenheit')` and pass celsium, kelvin or fahrenheit argument dimension as string.)
-* weather_description (just call `weather.weather_description`)
+* current temperature (just call `weather.current_temperature('celsium')` and pass celsium, kelvin or fahrenheit argument dimension as string.)
+* feels like temperature (just call `weather.feels_like_temperature('fahrenheit')` and pass celsium, kelvin or fahrenheit argument dimension as string.)
+* weather description (just call `weather.weather_description`)
 * humidity (just call `weather.humidity`)
 * pressure (just call `weather.pressure`)
 
