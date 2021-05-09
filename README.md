@@ -18,6 +18,7 @@ Or install it yourself as:
     $ gem install weather_handler
 
 ## Usage
+Go to https://openweathermap.org/api and sign up or log in to get your API key. Add to your .env file key OPEN_WEATHER_API_KEY (look at .env.example file) with value which you will receive to your mail box. 
 
 After installation you new need to create instance of WeatherHandler::Weather class and pass any city in string format which you want to check weather for.
 
