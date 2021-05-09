@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Weather Handler gem is created for purpose of finding weather on any city}
   spec.description   = %q{This gem will find weather for your city}
-  spec.homepage      = 'https://github.com/iviter/weather_handler'
+  spec.homepage      = 'https://rubygems.org/gems/weather_handler'
   spec.license       = 'MIT'
 
   spec.metadata['allowed_push_host'] = 'https://github.com/iviter/weather_handler'
