@@ -1,8 +1,5 @@
-# WeatherHandler
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/weather_handler`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+# Weather Handler
+This gem was developed to help you to check weather conditions (current temperature, feels like temperature, weather description, humidity and pressure) for your city or town.
 
 ## Installation
 
@@ -22,7 +19,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After installation you new need to create instance of WeatherHandler::Weather class and pass any city in string format which you want to check weather for.
+For example: **weather = WeatherHandler::Weather.new('london')**. Now you have new instance of WeatherHandler::Weather which you can use to find out such information as:
+⋅⋅* current_temperature (just call **weather.current_temperature('celsium')** and pass celsium, kelvin or fahrenheit argument dimension as string.)
+⋅⋅* feels_like_temperature (just call **weather.feels_like_temperature('fahrenheit')** and pass celsium, kelvin or fahrenheit argument dimension as string.)
+⋅⋅* weather_description (just call **weather.weather_description**)
+⋅⋅* humidity (just call **weather.humidity**)
+⋅⋅* pressure (just call **weather.pressure**)
+And use it in your code. 
 
 ## Development
 

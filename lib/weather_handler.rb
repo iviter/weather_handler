@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-# require 'weather_handler/version'
+require 'weather_handler/version'
 require 'rest-client'
 require 'dotenv/load'
 require 'json'
