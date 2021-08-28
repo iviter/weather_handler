@@ -11,32 +11,8 @@ RSpec.describe WeatherHandler::Weather do
   subject { described_class.new(lviv_city) }
 
   describe 'constants' do
-    it 'sets CONVERTATION_KELVIN_VALUE constant' do
-      expect(described_class::CONVERTATION_KELVIN_VALUE).to eq 273.15
-    end
-
-    it 'sets CONVERTATION_FAHRENHEIT_VALUE constant' do
-      expect(described_class::CONVERTATION_FAHRENHEIT_VALUE).to eq 459.67
-    end
-
-    it 'sets FAHRENHEIT_COEFFICIENT constant' do
-      expect(described_class::FAHRENHEIT_COEFFICIENT).to eq 1.8
-    end
-
-    it 'sets ERROR_MESSAGE constant' do
-      expect(described_class::ERROR_MESSAGE).to eq error_message
-    end
-
     it 'sets CELSIUM constant' do
       expect(described_class::CELSIUM).to eq celsium
-    end
-
-    it 'sets KELVIN constant' do
-      expect(described_class::KELVIN).to eq kelvin
-    end
-
-    it 'sets FAHRENHEIT constant' do
-      expect(described_class::FAHRENHEIT).to eq fahrenheit
     end
   end
 
